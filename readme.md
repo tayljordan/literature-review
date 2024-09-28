@@ -57,14 +57,14 @@ must_contain = ["maritime"]
 
 The script performs the following:
 
--Queries multiple search engines (Google Scholar, arXiv, CrossRef).
--Filters the results based on defined keywords.
--Prepares a prompt for the OpenAI model to generate a literature review.
--Outputs a one-paragraph literature review with a quantitative research gap rating, in APA format.
+- Queries multiple search engines (Google Scholar, arXiv, CrossRef).
+- Filters the results based on defined keywords.
+- Prepares a prompt for the OpenAI model to generate a literature review.
+- Outputs a one-paragraph literature review with a quantitative research gap rating, in APA format.
 
 ## Example Output #1
 
-Result:  [RESEARCH GAP: 10] Current literature and available databases, including Google Scholar, arXiv, and CrossRef, show a significant absence of studies on Python imaging tools or models specifically designed for analyzing marine engineering drawings. This gap is evident given the absence of search results on arXiv, where a query returned no matching results (arXiv, 2024). Despite Python's prevalent use in image processing and its potential applications in engineering disciplines due to libraries like OpenCV and PIL, there appears to be a critical lack of targeted research integrating these tools with marine engineering needs. This lack of literature underscores a pressing opportunity for focused investigations and technological development in this intersectional field of study, which remains unaddressed in current academic discourse.
+Result:  [RESEARCH GAP: 10] The inquiry into the optimal Python imaging tool or model for analyzing marine engineering drawings yields no substantial results across major academic databases, indicating a significant research gap. Searches conducted in Google Scholar, arXiv, and CrossRef returned no relevant publications or studies addressing this specific intersection of software tool development and application in marine engineering contexts. The absence of literature suggests an unexplored intersection of computer science, particularly Python's capabilities in image processing, with the practical requirements of marine engineering (arXiv, 2024). This lack of existing research highlights an opportunity for pioneering studies that could develop bespoke solutions or adapt existing image processing frameworks for the nuanced requirements of interpreting technical drawings in this field.
 
 ## License
 

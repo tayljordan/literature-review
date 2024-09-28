@@ -42,4 +42,31 @@ The main execution script `literature_review.py` can be run with the following c
 
 ```bash
 python3.11 literature_review.py
+```
+## Example Subject Matter
+
+The script allows you to define subject matter and specific keywords to narrow down the search results. For example:
+
+```python
+proposed_subject_matter = """
+    What is the best python imaging tool and/or model to use for examining marine engineering drawings?
+"""
+must_contain = ["maritime"]
+```
+## Output
+
+The script performs the following:
+
+-Queries multiple search engines (Google Scholar, arXiv, CrossRef).
+-Filters the results based on defined keywords.
+-Prepares a prompt for the OpenAI model to generate a literature review.
+-Outputs a one-paragraph literature review with a quantitative research gap rating, in APA format.
+
+## Example Output #1
+
+Result:  [RESEARCH GAP: 10] Current literature and available databases, including Google Scholar, arXiv, and CrossRef, show a significant absence of studies on Python imaging tools or models specifically designed for analyzing marine engineering drawings. This gap is evident given the absence of search results on arXiv, where a query returned no matching results (arXiv, 2024). Despite Python's prevalent use in image processing and its potential applications in engineering disciplines due to libraries like OpenCV and PIL, there appears to be a critical lack of targeted research integrating these tools with marine engineering needs. This lack of literature underscores a pressing opportunity for focused investigations and technological development in this intersectional field of study, which remains unaddressed in current academic discourse.
+
+## License
+
+This project is licensed under the MIT License. 
 

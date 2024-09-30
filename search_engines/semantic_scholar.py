@@ -41,7 +41,7 @@ def get_paper_details(paper_id):
             print(f"Error: {response.status_code}")
             return
 
-search_query = "Crack identification for marine engineering equipment based on improved SSD and YOLOv5/ Title of the Paper"
+search_query = "Title of the Paper/ Eg: Crack identification for marine engineering equipment based on improved SSD and YOLOv5"
 paper_id = search_paper(search_query)
 
 if paper_id:
